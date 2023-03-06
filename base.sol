@@ -9,7 +9,6 @@ contract MyContract {
 
     function setMyUint(uint256 _myUint) public {
         myUint = _myUint;
-        return myUint;
     }
     
     function getMyUint() public view returns (uint256) {
