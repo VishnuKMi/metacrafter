@@ -18,7 +18,6 @@ contract MyContract {
     
     function setMyBool(bool _myBool) public {
         myBool = _myBool;
-        return myBool;
     }
     
     function getMyBool() public view returns (bool) {
@@ -27,7 +26,6 @@ contract MyContract {
     
     function setMyString(string memory _myString) public {
         myString = _myString;
-        return myString;
     }
     
     function getMyString() public view returns (string memory) {
@@ -36,7 +34,6 @@ contract MyContract {
     
     function setMyAddress(address _myAddress) public {
         myAddress = _myAddress;
-        return myAddress;
     }
     
     function getMyAddress() public view returns (address) {
